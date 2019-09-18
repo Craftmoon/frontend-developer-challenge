@@ -1,15 +1,16 @@
 import React from "react";
+import "./styles.css";
 
 const Header = () => {
   return (
     <header>
       <hgroup>
-        <div className="heading-medium">uma seleção de produtos</div>
-        <div className="heading-big">especial para você</div>
-        <div className="heading-small">
+        <h3 className="heading-medium">uma seleção de produtos</h3>
+        <h1 className="heading-big">especial para você</h1>
+        <h5 className="heading-small">
           Todos os produtos desta lista foram selecionados a partir da sua
           navegação. Aproveite!
-        </div>
+        </h5>
       </hgroup>
       <nav>
         <button>Conheça a Linx</button>

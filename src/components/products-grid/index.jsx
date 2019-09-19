@@ -1,11 +1,15 @@
 import React from "react";
-import ProductShowcase from "../product-item";
+import ProductShowcase from "../product-showcase";
 
-const ProductsGrid = ({ products, onRequest }) => {
+import "./styles.css";
+
+const ProductGrid = props => {
+  const { products, onRequest } = props;
+
   return (
-    <article className="products-container-article">
+    <article className="container-fluid text-center">
       <h1>Sua seleção especial</h1>
-      <div className="products-grid">
+      <div className="container">
         <div className="grid-row">
           {products.map(product => (
             <ProductShowcase product={product} key={product.id} />
@@ -13,7 +17,7 @@ const ProductsGrid = ({ products, onRequest }) => {
         </div>
       </div>
       <button
-        className="article-end-button"
+        className="more-products-button"
         onClick={() => {
           onRequest();
         }}
@@ -24,4 +28,4 @@ const ProductsGrid = ({ products, onRequest }) => {
   );
 };
 
-export default ProductsGrid;
+export default ProductGrid;

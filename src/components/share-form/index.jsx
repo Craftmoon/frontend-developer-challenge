@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 const ShareForm = () => {
-  return <section>share form</section>;
+  return <article>share form</article>;
 };
 
 export default ShareForm;

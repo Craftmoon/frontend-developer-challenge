@@ -1,0 +1,5 @@
+article h1:first-child {
+  font: Bold 18px/16px Helvetica Neue;
+  letter-spacing: 0;
+  color: #888888;
+}

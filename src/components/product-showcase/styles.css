@@ -50,7 +50,7 @@
 .product-name {
   margin: 10px 0px 10px 0px;
   text-align: left;
-  font: Regular 14px/16px Helvetica Neue;
+  font: normal 14px/16px Helvetica Neue;
   letter-spacing: 0;
   color: #888888;
   opacity: 1;
@@ -58,7 +58,7 @@
 
 .product-description {
   text-align: left;
-  font: Regular 12px/16px Helvetica Neue;
+  font: normal 12px/16px Helvetica Neue;
   letter-spacing: 0;
   color: #888888;
   opacity: 1;

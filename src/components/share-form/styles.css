@@ -1,0 +1,42 @@
+.share-form-article {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.share-form-section {
+  display: inline-flex;
+}
+
+label {
+  font: normal 12px/14px Helvetica Neue;
+  letter-spacing: 0;
+  color: #888888;
+  line-height: 20px;
+  display: block;
+}
+
+input {
+  width: 340px;
+  height: 26px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  padding-left: 10px;
+  display: block;
+}
+
+.subtitle {
+  font: normal 14px/16px Helvetica Neue;
+  letter-spacing: 0;
+  color: #888888;
+  margin: 30px;
+}
+
+form section div {
+  text-align: left;
+  margin: 20px;
+}

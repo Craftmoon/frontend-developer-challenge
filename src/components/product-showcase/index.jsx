@@ -12,20 +12,17 @@ const ProductShowcase = props => {
           alt={product.name}
           className="product-image"
         />
-        <div className="row">
-          <div className="col product-name">{product.name}</div>
-        </div>
-        <div className="row">
-          <div className="col product-description">{product.description}</div>
-        </div>
-        <div className="row">
-          <div className="col"></div>
-        </div>
-        <div className="row">
-          <div className="col">
-            <button className="buy-button">Comprar</button>
-          </div>
-        </div>
+        <div className="product-name">{product.name}</div>
+      </div>
+      <div className="product-description">{product.description}</div>
+      <div>De: R${product.oldPrice}</div>
+      <div>Por: R${product.price} </div>
+      <div>
+        ou: {product.installments.count}x de R${product.installments.value}{" "}
+      </div>
+
+      <div>
+        <button className="buy-button">Comprar</button>
       </div>
     </section>
   );

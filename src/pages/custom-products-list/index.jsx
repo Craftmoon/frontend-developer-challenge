@@ -11,12 +11,10 @@ class CustomProductList extends Component {
     page: 1
   };
 
-  /* Function called when this component (page) finishes mounting */
   componentDidMount() {
     this.loadProducts();
   }
 
-  /* Calls the api to get the next page products */
   loadProducts = async () => {
     const response = await api.get(`/products?page=${this.state.page}`);
 
@@ -25,7 +23,6 @@ class CustomProductList extends Component {
     });
   };
 
-  /* Function called when the button for loading more products is clicked */
   handleClick = () => {
     const page = this.state.page + 1;
     this.setState({ page }, () => {

@@ -1,6 +1,5 @@
 import React from "react";
-import "./App.css";
-import CustomProductList from "./pages/custom-product-list";
+import CustomProductList from "./pages/custom-products-list";
 
 function App() {
   return <CustomProductList />;

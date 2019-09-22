@@ -11,13 +11,7 @@ ReactJS, Javascript ES6+, HTML5, CSS3, NPM e Axios (IDE - Visual studio code)
 
 ## Instalação
 
-Execute o seguinte comando na pasta desejada para clonar o repositório com o projeto:
-
-```
-git clone https://github.com/Craftmoon/frontend-developer-challenge.git
-```
-
-Entre no diretório do projeo clonado e execute o seguinte comando para fazer o download de dependências necessárias:
+Após clonar o projeto, entre no diretório e execute o seguinte comando para fazer o download de dependências necessárias:
 
 ```
 npm install
